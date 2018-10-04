@@ -1,0 +1,85 @@
+
+         a{
+             text-decoration-style:solid;
+             display: block;
+             border-radius: 60px; 
+         }
+         #about-cities {
+             text-align: center;
+         }
+         .city{
+             border: 1px solid black;
+             border-radius: 40px;
+             padding: 15px;
+             margin-bottom: 20px
+         }
+         .cities-container
+         body { 
+             background-color: rgb(8, 36, 36);
+             margin: 40px;
+             padding: 40px;
+             border-radius: 40px;
+             text-align: center;
+         }
+      .header {
+          background:url(bckgr.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          text-align:  center;
+          padding: 50px;
+          border-radius: 60px 
+      }
+      .header h1 {
+          font-size: 40px;
+      }
+      .cities-container {
+          padding: 20px;
+          text-align: center;
+     }
+     .footer {
+         background-color: rgb(44, 168, 131);
+         color: aliceblue;
+         padding: 20px 70px;
+         border: 100px;
+     }
+     .description{
+         text-align: center;
+     }
+     .header a{
+         display: inline-block;
+         color: blueviolet;
+         background-color: rgb(136, 177, 163);
+         padding: 5px 10px;
+         font-size: 15px;
+         /* text-decoration: none; */
+     }
+     body {
+         background-color: blanchedalmond
+     }
+}  
+     .navlist {
+         overflow : hidden;
+         margin: 0%;
+         padding: 0%;
+         list-style-type:none;
+     }
+
+         .navlist  li {
+             float: right;
+             box-shadow: 20px;
+
+         }
+
+         .navlist li a {
+             display: block;
+             padding: 14px 16px;
+            }
+            .city p::first-letter {
+                font-size: 20px;
+                font-family: fantasy;
+                font-weight: 500;
+
+            }
+
+     
