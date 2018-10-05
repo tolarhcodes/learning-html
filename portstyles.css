@@ -1,15 +1,68 @@
-h2{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: dimgray;
-    border-radius: 20px;
-    padding: 20px;
+#h2{
+    font-family: cursive;
+    border-radius: 10px;
     margin: 30px;
+    /* padding-top: 10px; */
 }
-.navbar {
+.navbar a{
     list-style-type: none;
     border: 20px;
     text-align: end;
-    padding: 0px;
+    padding: 20px;
     border-radius: 15px;
-    margin: 30px;
+    /* margin: 10px; */
+    /* padding-left: 50px; */
+    /* background-color: teal; */
+    text-decoration-color: teal;
+}
+.navbar {
+    float: right;
+}
+header{
+    padding-bottom: 30px;
+} 
+.description{
+    border-radius: 30px;
+    border-color: blanchedalmond;
+    border: 1px solid rgb(77, 47, 2);
+    padding: 30px;
+    background: teal;
+    font-family:  'Handlee',cursive;
+    float: right;
+}
+table{
+    width: 50%
+}
+table,th,td {
+    border: 3px solid #cecece;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+    background-color: darksalmon;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 3px;
+    margin-bottom: 30px;
+}
+.heading{
+    background-color: gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border-radius: 10px
+}
+.timetable{
+    font-family: 'Handlee',cursive
+}
+.section{
+    background: url(white.jpg);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-family: 'Handlee',cursive
+    
+}
+body{
+    background: url(best.jpg);
+}
+#image{
+    border-radius: 50%;
 }
